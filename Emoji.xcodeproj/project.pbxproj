@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
+		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
+		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
+		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
+		289233AF0DB2D0DB0083E9F9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AB0DB2D0DB0083E9F9 /* RootViewController.m */; };
+		9430B1881579779700716882 /* EmojiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9430B1871579779700716882 /* EmojiAppDelegate.m */; };
+		9430B18B157977B600716882 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9430B18A157977B600716882 /* QuartzCore.framework */; };
+		9430B18D157977BB00716882 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9430B18C157977BB00716882 /* MessageUI.framework */; };
+		9430B1A61579881F00716882 /* app2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B19B1579881F00716882 /* app2.png */; };
+		9430B1A71579881F00716882 /* applications_internet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B19C1579881F00716882 /* applications_internet.png */; };
+		9430B1A81579881F00716882 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B19D1579881F00716882 /* facebook.png */; };
+		9430B1AA1579881F00716882 /* keyboard_emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B19F1579881F00716882 /* keyboard_emoji.png */; };
+		9430B1AB1579881F00716882 /* keyboard_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1A01579881F00716882 /* keyboard_normal.png */; };
+		9430B1AC1579881F00716882 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1A11579881F00716882 /* mail.png */; };
+		9430B1AF1579881F00716882 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1A41579881F00716882 /* twitter.png */; };
+		9430B1B01579881F00716882 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1A51579881F00716882 /* youtube.png */; };
+		9430B1B61579887800716882 /* emoticon_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1B11579887800716882 /* emoticon_50.png */; };
+		9430B1B71579887800716882 /* emoticon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1B21579887800716882 /* emoticon_57.png */; };
+		9430B1B81579887800716882 /* emoticon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1B31579887800716882 /* emoticon_72.png */; };
+		9430B1B91579887800716882 /* emoticon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1B41579887800716882 /* emoticon_114.png */; };
+		9430B1BA1579887800716882 /* emoticon_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1B51579887800716882 /* emoticon_512.png */; };
+		9430B1C11579895500716882 /* icon_help@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1BB1579895500716882 /* icon_help@2x.png */; };
+		9430B1C21579895500716882 /* icon_help.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1BC1579895500716882 /* icon_help.png */; };
+		9430B1C31579895500716882 /* icon_mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1BD1579895500716882 /* icon_mail@2x.png */; };
+		9430B1C41579895500716882 /* icon_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1BE1579895500716882 /* icon_info@2x.png */; };
+		9430B1C51579895500716882 /* icon_mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1BF1579895500716882 /* icon_mail.png */; };
+		9430B1C61579895500716882 /* icon_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1C01579895500716882 /* icon_info.png */; };
+		9430B1D8157989B900716882 /* icon_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1D6157989B800716882 /* icon_settings.png */; };
+		9430B1D9157989B900716882 /* icon_settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430B1D7157989B800716882 /* icon_settings@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
+		289233AA0DB2D0DB0083E9F9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		289233AB0DB2D0DB0083E9F9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Emoji_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emoji_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9430B1861579779700716882 /* EmojiAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiAppDelegate.h; sourceTree = "<group>"; };
+		9430B1871579779700716882 /* EmojiAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiAppDelegate.m; sourceTree = "<group>"; };
+		9430B18A157977B600716882 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9430B18C157977BB00716882 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9430B19B1579881F00716882 /* app2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app2.png; sourceTree = "<group>"; };
+		9430B19C1579881F00716882 /* applications_internet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applications_internet.png; sourceTree = "<group>"; };
+		9430B19D1579881F00716882 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		9430B19F1579881F00716882 /* keyboard_emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_emoji.png; sourceTree = "<group>"; };
+		9430B1A01579881F00716882 /* keyboard_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_normal.png; sourceTree = "<group>"; };
+		9430B1A11579881F00716882 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		9430B1A41579881F00716882 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		9430B1A51579881F00716882 /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube.png; sourceTree = "<group>"; };
+		9430B1B11579887800716882 /* emoticon_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoticon_50.png; sourceTree = "<group>"; };
+		9430B1B21579887800716882 /* emoticon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoticon_57.png; sourceTree = "<group>"; };
+		9430B1B31579887800716882 /* emoticon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoticon_72.png; sourceTree = "<group>"; };
+		9430B1B41579887800716882 /* emoticon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoticon_114.png; sourceTree = "<group>"; };
+		9430B1B51579887800716882 /* emoticon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoticon_512.png; sourceTree = "<group>"; };
+		9430B1BB1579895500716882 /* icon_help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_help@2x.png"; sourceTree = "<group>"; };
+		9430B1BC1579895500716882 /* icon_help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_help.png; sourceTree = "<group>"; };
+		9430B1BD1579895500716882 /* icon_mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mail@2x.png"; sourceTree = "<group>"; };
+		9430B1BE1579895500716882 /* icon_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_info@2x.png"; sourceTree = "<group>"; };
+		9430B1BF1579895500716882 /* icon_mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_mail.png; sourceTree = "<group>"; };
+		9430B1C01579895500716882 /* icon_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_info.png; sourceTree = "<group>"; };
+		9430B1D6157989B800716882 /* icon_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_settings.png; sourceTree = "<group>"; };
+		9430B1D7157989B800716882 /* icon_settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_settings@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9430B18D157977BB00716882 /* MessageUI.framework in Frameworks */,
+				9430B18B157977B600716882 /* QuartzCore.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Application Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9430B1861579779700716882 /* EmojiAppDelegate.h */,
+				9430B1871579779700716882 /* EmojiAppDelegate.m */,
+				289233AA0DB2D0DB0083E9F9 /* RootViewController.h */,
+				289233AB0DB2D0DB0083E9F9 /* RootViewController.m */,
+			);
+			name = "Application Controllers";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Emoji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		289233A00DB2D0730083E9F9 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				289233A80DB2D0DB0083E9F9 /* MainViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				289233A00DB2D0730083E9F9 /* Main View */,
+				080E96DDFE201D6D7F000001 /* Application Controllers */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Emoji_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				941B319715798E7200EF6898 /* images */,
+				280E754B0DD40C5E005A515E /* MainView.xib */,
+				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9430B18C157977BB00716882 /* MessageUI.framework */,
+				9430B18A157977B600716882 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		941B319715798E7200EF6898 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9430B1D6157989B800716882 /* icon_settings.png */,
+				9430B1D7157989B800716882 /* icon_settings@2x.png */,
+				9430B1BB1579895500716882 /* icon_help@2x.png */,
+				9430B1BC1579895500716882 /* icon_help.png */,
+				9430B1BD1579895500716882 /* icon_mail@2x.png */,
+				9430B1BE1579895500716882 /* icon_info@2x.png */,
+				9430B1BF1579895500716882 /* icon_mail.png */,
+				9430B1C01579895500716882 /* icon_info.png */,
+				9430B1B11579887800716882 /* emoticon_50.png */,
+				9430B1B21579887800716882 /* emoticon_57.png */,
+				9430B1B31579887800716882 /* emoticon_72.png */,
+				9430B1B41579887800716882 /* emoticon_114.png */,
+				9430B1B51579887800716882 /* emoticon_512.png */,
+				9430B19B1579881F00716882 /* app2.png */,
+				9430B19C1579881F00716882 /* applications_internet.png */,
+				9430B19D1579881F00716882 /* facebook.png */,
+				9430B19F1579881F00716882 /* keyboard_emoji.png */,
+				9430B1A01579881F00716882 /* keyboard_normal.png */,
+				9430B1A11579881F00716882 /* mail.png */,
+				9430B1A41579881F00716882 /* twitter.png */,
+				9430B1A51579881F00716882 /* youtube.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Emoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Emoji" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emoji;
+			productName = Emojicon;
+			productReference = 1D6058910D05DD3D006BFB54 /* Emoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Emoji" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Emoji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
+				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
+				9430B1A61579881F00716882 /* app2.png in Resources */,
+				9430B1A71579881F00716882 /* applications_internet.png in Resources */,
+				9430B1A81579881F00716882 /* facebook.png in Resources */,
+				9430B1AA1579881F00716882 /* keyboard_emoji.png in Resources */,
+				9430B1AB1579881F00716882 /* keyboard_normal.png in Resources */,
+				9430B1AC1579881F00716882 /* mail.png in Resources */,
+				9430B1AF1579881F00716882 /* twitter.png in Resources */,
+				9430B1B01579881F00716882 /* youtube.png in Resources */,
+				9430B1B61579887800716882 /* emoticon_50.png in Resources */,
+				9430B1B71579887800716882 /* emoticon_57.png in Resources */,
+				9430B1B81579887800716882 /* emoticon_72.png in Resources */,
+				9430B1B91579887800716882 /* emoticon_114.png in Resources */,
+				9430B1BA1579887800716882 /* emoticon_512.png in Resources */,
+				9430B1C11579895500716882 /* icon_help@2x.png in Resources */,
+				9430B1C21579895500716882 /* icon_help.png in Resources */,
+				9430B1C31579895500716882 /* icon_mail@2x.png in Resources */,
+				9430B1C41579895500716882 /* icon_info@2x.png in Resources */,
+				9430B1C51579895500716882 /* icon_mail.png in Resources */,
+				9430B1C61579895500716882 /* icon_info.png in Resources */,
+				9430B1D8157989B900716882 /* icon_settings.png in Resources */,
+				9430B1D9157989B900716882 /* icon_settings@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
+				289233AF0DB2D0DB0083E9F9 /* RootViewController.m in Sources */,
+				9430B1881579779700716882 /* EmojiAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		015712990F2C0E0A0088EA1E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Distribution;
+		};
+		0157129A0F2C0E0A0088EA1E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Emoji_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Emoji;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Distribution;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Emoji_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Emoji;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Emoji_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Emoji;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Emoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				0157129A0F2C0E0A0088EA1E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Emoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				015712990F2C0E0A0088EA1E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
